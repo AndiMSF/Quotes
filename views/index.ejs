@@ -1,0 +1,25 @@
+<%- include("partials/head.ejs") %>
+
+<%- include("partials/noUserNavbar.ejs") %>
+
+<!-- home -->
+<div class="container-fluid position-absolute top-50 start-50 translate-middle text-center home__style">
+  <div class="home-msg">
+    <div class="mb-3 quotes-home-icon">
+      <i class="fa-solid fa-quote-left"></i>
+      <sub class="fw-bold">Quotes</sub>
+      <i class="fa-solid fa-quote-right"></i>
+    </div>
+  </div>
+
+  <p>Login and Share Your Quotes to Everyone!</p>
+
+
+
+<div class="register-login mt-5">
+  <a href="/register" class="btn btn-dark btn-lg home_button" type="button">Register</a>
+  <a href="/login" class="btn btn-dark btn-lg ms-5 home_button"  type="button">Login</a>
+</div>
+
+</div>
+<%- include("partials/footer.ejs") %>

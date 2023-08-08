@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: aliceblue;
+}
+/* navbar */
+.navbar__style{
+    padding: 2rem 3rem;
+}
+
+#navbarSupportedContent{
+    flex-grow:0;
+}
+
+ul.navbar-nav{
+    gap: 4rem;
+}
+
+/* Home */
+
+.home__style {
+    margin-bottom: 2rem;
+}
+
+sub {
+    font-size: 3.5rem;
+}
+
+.home_button {
+    background-color: rgb(83, 77, 77);
+    transition: .4s;
+}
+
+/* Login and Register */
+
+.login__styles {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__styles h3 {
+    text-align: center;
+}
+
+.login__styles form {
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 1.3rem
+}
+
+.login__styles button {
+    margin-top: 4rem;
+    display: block;
+    align-self: center;
+    background-color: rgb(43, 41, 41);
+    width: 100%;
+    text-align: center;
+}
+
+.white_text {
+    color: #fff;
+}
+
+/* Submit Quotes */
+
+.page_container {
+    height: 100vh;
+}
+
+.quotes_title {
+    margin: 2rem;
+    font-weight: 800;
+}
+
+.quotes_desc {
+
+}
+
+.quotes_color {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quotes_button {
+    display: flex;
+    align-items:end;
+}
+
+.quotes_color button {
+    background-color: rgb(68, 62, 62);
+}
+
+/* Quotes */
+.page_container .row {
+    padding: 2rem;
+    gap:1rem;
+    justify-content:space-around;
+}
+
+.kartu {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 0px 0px 2px black;
+}
+
+.text_title_quotes {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.fa-clock {
+    font-size: 0.745rem;
+}
+
+.time_publish {
+    font-size: 0.745rem;
+}
+
+.text_likes {
+    margin-left: 0.23rem;
+
+}

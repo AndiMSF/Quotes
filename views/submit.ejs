@@ -1,0 +1,25 @@
+<%- include("partials/head.ejs") %>
+
+<%- include("partials/navbar.ejs") %>
+
+<div class="row page_container container-fluid">
+    <form action="/submit" method="post">
+    <h3 class="quotes_title">Create Quote.</h3>
+    <div class="mb-3 quotes_desc">
+        <label for="create-quote" class="form-label">Quote</label>
+        <textarea name="quote" class="form-control" id="create-quote" id="" cols="30" rows="10" required maxlength="100"></textarea>
+        <div id="emailHelp" class="form-text text-danger">Max 100 Characters</div>
+    </div>
+    <div class="mb-3 quotes_color">
+        <div>
+            <label for="color-input" class="form-label">Choose Background Color</label>
+            <input type="color" class="form-control form-control-color" id="color-input" name="bgcolor" value="# 46244c" title="Choose your color">
+        </div>
+        <div class="quotes_button">
+            <button type="submit" class="btn btn-md btn-dark">Submit</button>
+        </div>
+    </div>
+</form>
+</div>
+
+<%- include("partials/footer.ejs") %>

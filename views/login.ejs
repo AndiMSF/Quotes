@@ -1,0 +1,22 @@
+<%- include("partials/head.ejs") %>
+
+<div class="col-md-8 m-auto login__styles">
+    <h3 class="mb-3">Login</h3>
+    <form action="/auth/login" method="post" class="">
+        
+        <div class="mb-3">
+            <label for="login-email" class="form-label white_text">Email address</label>
+            <input type="email" name="username" class="form-control" id="login-email" placeholder="Input your Email" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text">Don't share your email</div>
+        </div>
+        <div class="mb-3">
+            <label for="login-password" class="form-label white_text">Password</label>
+            <input type="password" name="password" class="form-control" id="register-password" placeholder="Input your Password" required minlength="6">
+            <div id="emailHelp" class="form-text">Password must be at least 6 characters</div>
+        </div>
+        <button type="submit" class="btn btn-light white_text">Submit</button>
+    </form>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
